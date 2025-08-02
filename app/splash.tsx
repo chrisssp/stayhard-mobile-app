@@ -6,7 +6,7 @@ export default function SplashScreen() {
   useEffect(() => {
     // Mostrar splash por 2 segundos antes de continuar
     const timer = setTimeout(() => {
-      router.replace("./index");
+      router.replace("./welcome");
     }, 2000);
 
     return () => clearTimeout(timer);
@@ -15,7 +15,7 @@ export default function SplashScreen() {
   return (
     <View className="flex-1 items-center justify-center bg-slate-800">
       <Image
-        source={require("../assets/images/icon.png")}
+        source={require("../assets/images/coach.png")}
         style={{ width: 120, height: 120, marginBottom: 24 }}
         resizeMode="contain"
       />
