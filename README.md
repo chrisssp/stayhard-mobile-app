@@ -1,50 +1,108 @@
-# Welcome to your Expo app 👋
+# StayHard Mobile App — AI-Powered Wellness Companion
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/Expo-53-000020?logo=expo&logoColor=white" alt="Expo">
+  <img src="https://img.shields.io/badge/React_Native-0.79-61DAFB?logo=react&logoColor=white" alt="React Native">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white" alt="Supabase">
+  <img src="https://img.shields.io/badge/Gemini_AI-4285F4?logo=google&logoColor=white" alt="Gemini AI">
+  <img src="https://img.shields.io/badge/License-GPL_v3-0298c3?logo=gnu&logoColor=white" alt="GPL v3">
+</p>
 
-## Get started
+<p align="center">
+  <em>Cross-platform mobile app with AI-powered features, real-time data, and a modern native UI</em>
+</p>
 
-1. Install dependencies
+<p align="center">
+  <a href="README.md">🇬🇧 English</a> · <a href="README.es.md">🇪🇸 Español</a>
+</p>
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## About StayHard
 
-   ```bash
-   npx expo start
-   ```
+A cross-platform mobile application built with Expo and React Native, leveraging Supabase for backend services and Google Gemini AI for intelligent features.
 
-In the output, you'll find options to open the app in a
+## Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- AI-powered conversational interface with Gemini
+- Real-time data sync via Supabase
+- Native bottom tab navigation
+- Modern UI with NativeWind and Heroicons
+- Haptic feedback and animations
+- Cross-platform (iOS, Android, Web)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Quick Start
 
-## Get a fresh project
+### Prerequisites
 
-When you're ready, run:
+- Node.js 18+
+- Expo Go (on device) or Android Studio / Xcode
+- Supabase account (for backend services)
+- Google Gemini API key (for AI features)
+
+### Setup
 
 ```bash
-npm run reset-project
+git clone https://github.com/chrisssp/stayhard-mobile-app.git
+cd stayhard-mobile-app
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Environment Variables
 
-## Learn more
+Copy `.env.example` to `.env` and fill in your keys:
 
-To learn more about developing your project with Expo, look at the following resources:
+```env
+EXPO_PUBLIC_SUPABASE_URL=your_supabase_url
+EXPO_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+GEMINI_API_KEY=your_gemini_api_key
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Development
 
-## Join the community
+```bash
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+Scan the QR code with Expo Go, or press `a` for Android emulator / `i` for iOS simulator.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Expo 53 + React Native 0.79 |
+| Language | TypeScript 5 |
+| Styling | NativeWind (Tailwind CSS 3) |
+| Navigation | Expo Router + React Navigation |
+| Backend | Supabase (Auth, PostgreSQL, Realtime) |
+| AI | Google Gemini AI |
+| Animations | React Native Reanimated |
+| Icons | react-native-heroicons |
+
+## Project Structure
+
+```
+stayhard-mobile-app/
+├── app/              # Expo Router pages
+├── components/       # Reusable UI components
+├── services/         # API clients (Supabase, Gemini)
+├── config/           # App configuration
+├── assets/           # Images, fonts, icons
+└── README.md
+```
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for branch naming, commit conventions, and PR workflow.
+
+## License
+
+This project is licensed under the GPL v3 — see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+**Authors:**
+
+- [@chrisssp](https://github.com/chrisssp) — Christian Serrano
