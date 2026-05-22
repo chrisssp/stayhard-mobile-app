@@ -1,4 +1,4 @@
-# StayHard Mobile App — AI-Powered Wellness Companion
+# StayHard — AI-Powered Daily Motivation
 
 <p align="center">
   <img src="https://img.shields.io/badge/Expo-53-000020?logo=expo&logoColor=white" alt="Expo">
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <em>Cross-platform mobile app with AI-powered features, real-time data, and a modern native UI</em>
+  <em>Motivational app to organize your daily life and stay on track to move forward</em>
 </p>
 
 <p align="center">
@@ -22,11 +22,12 @@
 
 ## About StayHard
 
-A cross-platform mobile application built with Expo and React Native, leveraging Supabase for backend services and Google Gemini AI for intelligent features.
+A cross-platform mobile application that helps you organize your daily life, build discipline, and stay motivated. Powered by Supabase for backend services and Google Gemini AI for intelligent coaching and personalized daily planning.
 
 ## Features
 
-- AI-powered conversational interface with Gemini
+- AI-powered conversational interface with Gemini for motivation and guidance
+- Daily planning and task organization
 - Real-time data sync via Supabase
 - Native bottom tab navigation
 - Modern UI with NativeWind and Heroicons
